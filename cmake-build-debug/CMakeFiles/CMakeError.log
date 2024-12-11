@@ -1,0 +1,52 @@
+Determining if the function shm_open exists in the rt failed with the following output:
+Change Dir: C:/Users/46707/CLionProjects/dt096g/ML-DSA_test/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe cmTC_4b92f && [1/2] Building C object CMakeFiles/cmTC_4b92f.dir/CheckFunctionExists.c.obj
+[2/2] Linking C executable cmTC_4b92f.exe
+FAILED: cmTC_4b92f.exe 
+cmd.exe /C "cd . && C:\mingw64\bin\gcc.exe -DCHECK_FUNCTION_EXISTS=shm_open  CMakeFiles/cmTC_4b92f.dir/CheckFunctionExists.c.obj -o cmTC_4b92f.exe -Wl,--out-implib,libcmTC_4b92f.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lrt  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+C:/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot find -lrt
+collect2.exe: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 failed with the following output:
+Change Dir: C:/Users/46707/CLionProjects/dt096g/ML-DSA_test/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe cmTC_795fe && [1/2] Building CXX object CMakeFiles/cmTC_795fe.dir/src.cxx.obj
+FAILED: CMakeFiles/cmTC_795fe.dir/src.cxx.obj 
+C:\mingw64\bin\c++.exe -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -Wshorten-64-to-32 -fdiagnostics-color=always   -Wshorten-64-to-32 -std=c++1z -o CMakeFiles/cmTC_795fe.dir/src.cxx.obj -c C:/Users/46707/CLionProjects/dt096g/ML-DSA_test/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+c++.exe: error: unrecognized command line option '-Wshorten-64-to-32'
+c++.exe: error: unrecognized command line option '-Wshorten-64-to-32'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WD654 failed with the following output:
+Change Dir: C:/Users/46707/CLionProjects/dt096g/ML-DSA_test/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe cmTC_56dab && [1/2] Building CXX object CMakeFiles/cmTC_56dab.dir/src.cxx.obj
+FAILED: CMakeFiles/cmTC_56dab.dir/src.cxx.obj 
+C:\mingw64\bin\c++.exe -DHAVE_CXX_FLAG_WD654  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -wd654 -fdiagnostics-color=always   -wd654 -std=c++1z -o CMakeFiles/cmTC_56dab.dir/src.cxx.obj -c C:/Users/46707/CLionProjects/dt096g/ML-DSA_test/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+c++.exe: error: unrecognized command line option '-wd654'
+c++.exe: error: unrecognized command line option '-wd654'
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WTHREAD_SAFETY failed with the following output:
+Change Dir: C:/Users/46707/CLionProjects/dt096g/ML-DSA_test/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2022.2.4/bin/ninja/win/ninja.exe cmTC_5026f && [1/2] Building CXX object CMakeFiles/cmTC_5026f.dir/src.cxx.obj
+FAILED: CMakeFiles/cmTC_5026f.dir/src.cxx.obj 
+C:\mingw64\bin\c++.exe -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wconversion  -Werror  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -Wno-deprecated  -Wstrict-aliasing  -Wthread-safety -fdiagnostics-color=always   -Wthread-safety -std=c++1z -o CMakeFiles/cmTC_5026f.dir/src.cxx.obj -c C:/Users/46707/CLionProjects/dt096g/ML-DSA_test/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+c++.exe: error: unrecognized command line option '-Wthread-safety'; did you mean '-fthread-jumps'?
+c++.exe: error: unrecognized command line option '-Wthread-safety'; did you mean '-fthread-jumps'?
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+int main() { return 0; }
